@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".control.MainActivity">
+    <item android:id="@+id/menu_nuevo"
+        android:title="@string/insertar"
+        android:icon="@drawable/add"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/menu_salir"
+        android:title="@string/salir"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/b_titulo"
+        android:title="Ordenar por titulo"/>
+
+    <item
+        android:id="@+id/b_autor"
+        android:title="Ordenar por autor"/>
+</menu>
